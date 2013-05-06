@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>fileTypes</key>
+	<array>
+		<string>pdb</string>
+	</array>
+	<key>name</key>
+	<string>pdb</string>
+	<key>patterns</key>
+	<array>
+		<dict>
+			<key>match</key>
+			<string>^ATOM</string>
+			<key>name</key>
+			<string>keyword.source.pdb</string>
+		</dict>
+		<dict>
+			<key>match</key>
+			<string>^HETATM</string>
+			<key>name</key>
+			<string>string.source.pdb</string>
+		</dict>
+		<dict>
+			<key>match</key>
+			<string>^TITLE.*|^SOURCE.*|^JRNL.*</string>
+			<key>name</key>
+			<string>string.quoted.double.pdb</string>
+		</dict>
+		<dict>
+			<key>match</key>
+			<string>^TER.*|^MODEL.*</string>
+			<key>name</key>
+			<string>entity.name.function.pdb</string>
+		</dict>
+		<dict>
+			<key>match</key>
+			<string>\sALA\s|\sCYS\s|\sASP\s|\sGLU\s|\sPHE\s|\sGLY\s|\sHIS\s|\sILE\s|\sLYS\s|\sLEU\s|\sMET\s|\sASN\s|\sPRO\s|\sGLN\s|\sARG\s|\sSER\s|\sTHR\s|\sVAL\s|\sTRP\s|\sTYR\s</string>
+			<key>name</key>
+			<string>storage.type.pdb</string>
+		</dict>
+		<dict>
+			<key>match</key>
+			<string>\d\d?\.\d\d\d\s|-\d\d?\.\d\d\d\s</string>
+			<key>name</key>
+			<string>constant.numeric.pdb</string>
+		</dict>
+	</array>
+	<key>scopeName</key>
+	<string>source.pdb</string>
+	<key>uuid</key>
+	<string>5d474207-c3f7-42c4-982d-b8302c40b6ee</string>
+</dict>
+</plist>
