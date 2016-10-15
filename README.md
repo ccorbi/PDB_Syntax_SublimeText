@@ -1,6 +1,12 @@
-Packages and utilities for sublime text 2
-=========================================
+# README
+
+Custom highlight syntax for PDB files (Protein Database Bank) for Sublime Text
 
 * Filename: pdb_syntax.tmlanguage
-+ Description: Custom highlight syntax for Protein Database Bank files
-+ Howto: Copy the file to your Packages/User folder as Sublime Snippets. Foe exemple: '/Users/yourname/Library/Application Support/Sublime Text 2/Packages/User'
+
+## Installation
+ Copy the file to your Packages/User folder as Sublime Snippets.
+ For example:
+```
+ /Users/yourname/Library/Application Support/Sublime Text 2/Packages/User
+```
